@@ -1,0 +1,114 @@
+body {
+    background: radial-gradient(118.29% 283.09% at 106.71% 0%, #12dfbc 0%, #000000 100%);
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 10;
+}
+
+.nav-ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem 0;
+    margin: 0;
+}
+
+.nav-ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.main-content {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    padding-top: 60px; /* Adjusting for fixed header */
+}
+
+.experience, .skills {
+    width: 50%;
+    height: 100%;
+    overflow-y: auto;
+    padding: 2vw;
+    box-sizing: border-box;
+}
+
+.experience {
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    margin-bottom: 2vw;
+    padding: 1vw;
+    width: 100%;
+}
+
+.one {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.one h2 {
+    margin: 0 0 1vw 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2vw;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.one img {
+    height: 4vw;
+    width: auto;
+}
+
+.two {
+    padding-left: 3vw;
+    font-family: 'Poppins', sans-serif;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 1.3vw;
+    line-height: 25px;
+}
+
+.two span {
+    font-weight: 600;
+}
+
+.title, .title1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 3vw;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 2vw;
+}
+
+.skills-scroll {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skills-scroll img {
+    height: 8vw;
+    width: auto;
+    margin: 1vw 0;
+}
